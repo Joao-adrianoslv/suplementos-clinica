@@ -1,0 +1,368 @@
+/* Header  */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: var(--color-first);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    font-size: var(--font-min);
+    text-transform: uppercase;
+}
+
+header .logo:hover {
+    filter: drop-shadow(0 0 0.4rem var(--color-default));
+}
+
+header .nav-list {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a {
+    display: block;
+    font-size: var( --font-default-three);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: var(--color-first);
+    background-color: var(--color-second);
+}
+
+
+
+/* Main home */
+
+main {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: 75vh;
+    background-color: var(--color-third);
+}
+
+main .home-pg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+main .home-text .text-title {
+    font-size: var(--font-secondy);
+    color: var(--color-first);
+}
+
+main .text-second {
+    color: var(--color-default);
+    font-size: var(--font-primary);
+    font-weight: 300;
+    padding: 30px 0;
+    line-height: 30px;
+}
+
+main button {
+    font-size: var(--font-defaulttwo);
+    text-transform: uppercase;
+    padding: 20px 25px;
+    background-color: var(--color-first);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: color, background-color;
+}
+
+main button:hover {
+    color: var(--color-first);
+    background-color: var(--color-second);
+}
+
+main .home-img {
+    width: 450px;
+}
+
+/* Section ntn */
+
+.ntn {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-third);
+    border-top: 1px solid var(--color-first);
+}
+
+section .txts {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+section .infor h2 {
+    text-align: center;
+    font-size: var(--font-secondy);
+    color: var(--color-first);
+    padding: 20px 0;
+}
+
+section .infor p {
+    color: var(--color-default);
+    font-size: var(--font-primary);
+    font-weight: 300;
+    line-height: 30px;
+}
+
+section .blocos {
+    display: flex;
+    width: 100%;
+
+}
+
+section .quadro {
+    box-shadow: 0 0 10px var(--color-first);
+    padding: 25px;
+    margin: 35px 30px 0 0;
+}
+
+section .txts .blocos .quadro img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+section .quadro p {
+    font-size: var(--font-primary);
+    font-weight: 300;
+    color: var(--color-default);
+    margin-top: 18px;
+    text-align: center;
+}
+
+.ntn .prgf p {
+    color: var(--color-default);
+    font-size: var(--font-primary);
+    font-weight: 300;
+    padding-top: 20px;
+    line-height: 27px;
+}
+
+
+/* Section vantagens-pote */
+
+.vantagens-pote {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-third);
+    border-top: 1px solid var(--color-first);
+}
+
+.vantagens-pote .compostos {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+.vantagens-pote .infor-compostos h3 {
+    color: var(--color-first);
+    font-size: var(--font-subale);
+    padding: 15px 0;
+}
+
+.vantagens-pote .infor-compostos p {
+    color: var(--color-default);
+    font-size: var(--font-primary);
+}
+
+.vantagens-pote .infor-compostos p::before {
+    display: inline-block;
+    content: "☑";
+    color: var(--color-first);
+    width: 20px;
+    height: 32px;
+}
+
+.vantagens-pote h2 {
+    color: var(--color-first);
+    font-size: var(--font-secondy);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.vantagens-pote .txts-info-tw p {
+    color: var(--color-default);
+    font-size: var(--font-primary);
+    line-height: 32px;
+}
+
+.vantagens-pote .txts-info-tw .btn-bft::before {
+    display: inline-block;
+    content: "📋";
+    width: 25px;
+    height: 42px;
+}
+
+.vantagens-pote .txts-info-tw .prg-modfcd {
+    color: var(--color-first);
+    font-size: var(--font-default);
+}
+
+
+/* Section vantagens */
+
+.pg-duvidas {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-third);
+    border-top: 1px solid var(--color-first);
+}
+
+.pg-duvidas .ctn-pg {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.pg-duvidas .list-duvidas-suplmt {
+    width: 100%; 
+}
+
+.pg-duvidas .list-duvidas-suplmt h2 {
+    color: var(--color-first);
+    font-size: var(--font-secondy);
+    text-align: center;
+    padding: 50px;
+}
+
+.pg-duvidas .list-duvidas-suplmt .faq-list {
+    margin: auto;
+    max-width: 1100px;
+    font-size: var(--font-primary);
+    padding-bottom: 30px;
+}
+
+.pg-duvidas .list-duvidas-suplmt .faq-list .faq-question,
+.pg-duvidas .list-duvidas-suplmt .faq-list .faq-question .faq-answer {
+    background-color: var(--color-second);
+    color: var(--color-first);
+    font-weight: 300;
+}
+
+.pg-duvidas .list-duvidas-suplmt .faq-list .faq-question {
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+
+.pg-duvidas .list-duvidas-suplmt .faq-list .faq-question::after {
+    content: " ";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url('/src/img/fechar.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(45deg);
+}
+
+.pg-duvidas .list-duvidas-suplmt .faq-list .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+}
+
+.pg-duvidas .list-duvidas-suplmt .faq-list .faq-answer > div {
+    background-color: var(--color-default);
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.pg-duvidas .list-duvidas-suplmt .faq-list .faq-answer.active {
+    max-height: 1200px;
+}
+
+.pg-duvidas .list-duvidas-suplmt .faq-list .faq-question.active::after {
+    transform: rotate(0deg);
+}
+
+
+
+/* Section reslt-lpw */
+
+.reslt-lpw {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-third);
+    border-top: 1px solid var(--color-first);
+}
+
+.reslt-lpw .dvds-result {
+    width: 1100px;
+    padding-bottom: 35px;
+    margin: 0 auto;
+}
+
+.reslt-lpw .dvds-result h3 {
+    color: var(--color-first);
+    font-size: var(--font-secondy);
+    text-align: center;
+    padding: 25px 0;
+}
+
+.reslt-lpw .dvds-result > p {
+    color: var(--color-default);
+    font-size: var(--font-primary);
+    padding-top: 15px;
+    line-height: 30px;
+}
+
+.reslt-lpw .email-edit {
+    color: var(--color-first);
+}
+
+.reslt-lpw .fundo-txts h2 {
+    color: var(--color-first);
+    text-align: center;
+    font-size: var(--font-secondy);
+    padding: 60px 0;
+}
+
+.reslt-lpw .fundo-txts > p {
+    color: var(--color-default);
+    font-size: var(--font-primary);
+    line-height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.reslt-lpw  .fundo-txts .termos-prvd {
+    color: var(--color-selection);
+    text-transform: uppercase;
+    font-size: var(--font-aleatoria);
+}
